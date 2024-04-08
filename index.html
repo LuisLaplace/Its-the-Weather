@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+
+<body>
+    <header>Weather Dashboard</header>
+
+    <div>
+        <div>
+            <aside>
+                <h1 id="title">Search for a City:</h1>
+                <form id="search-form" action="">
+                    <label for="city"></label>
+                    <input type="text" id="city"  name="city" placeholder="Enter city name"
+                        required><br>
+                    <button type="submit" id="searchBtn">Search</button>
+                    <div id="search-history"></div>
+                </form>
+            </aside>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 id="weather-results"></h2>
+        <div id="forecast"></div>
+    </div>
+    <script src="./Assets/js/script.js"></script>
+</body>
+
+</html>

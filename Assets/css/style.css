@@ -1,0 +1,79 @@
+header {
+    background-image: linear-gradient(to right, #00d4ff, #090979, #020024);
+    color: white;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+aside {
+    float: left;
+    margin: 0 1.5%;
+    width: 30%;
+    position: relative;
+    text-align: center;
+}
+
+#searchBtn {
+    position: relative;
+    top: 20px;
+    background-color: #090979;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section {
+    float: right;
+    margin: 10px 1.5%;
+    height: 18rem;
+    width: 63%;
+    border: solid;
+}
+
+#forecast {
+    display: inline-flex;
+    position: relative;
+    top: 3rem;
+}
+
+.forecast-card {
+    background-color: rgb(40, 40, 63);
+    color: white;
+    margin-right: 10px;
+}
+
+.forecast-card .card-body {
+    padding: 10px; 
+}
+
+.forecast-card .card-title {
+    font-size: 18px;
+    margin-bottom: 5px; 
+}
+
+.forecast-card .card-text {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#search-history {
+    position: relative;
+    margin-top: 3rem;
+    list-style-type: none;
+    font-size: xx-large;
+}
+
+li {
+    margin-bottom: 12px;
+    color: white;
+    background-color: #090979;
+    text-align: center;
+    border-radius: 5px;
+}
+
