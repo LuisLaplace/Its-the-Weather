@@ -55,7 +55,7 @@ Using the .then promise; the user will recieve an error prompt if the page takes
 - code was revised usind chatGPT
 
 
-A list was made to display user search history by pushing it into an array at the global scope.  When the user clicks on a previouse search result, the weather information is displayed, and the search history is updated.
+A list was made to display user search history by pushing it into an array at the global scope.  When the user clicks on a previous search result, the weather information is displayed, and the search history is updated.
 
 ## Forecast
 As the weather information is displayed, the user will be shown a five day forcast of the weather in the city.  Using a similar code to the city-weather information, we added a datekey to stop duplications from populating the site.
@@ -65,5 +65,6 @@ As the weather information is displayed, the user will be shown a five day forca
 ```
 - code was made with the help of chatGPT
 
+https://luislaplace.github.io/Its-the-Weather/
 
-
+https://github.com/LuisLaplace/Its-the-Weather
